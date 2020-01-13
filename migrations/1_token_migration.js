@@ -8,6 +8,6 @@ module.exports = async function(deployer, network, accounts) {
     }
     const _name = "VAIOT Token";
     const _symbol = "vAI";
-    const _totalSupply = 25200000000;
+    const _totalSupply = 720000000;
     await deployer.deploy(VAIToken, _name, _symbol, _totalSupply);
 };
