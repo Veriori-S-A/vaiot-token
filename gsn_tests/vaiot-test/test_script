@@ -1,0 +1,40 @@
+///////////////////// INIT /////////////////////
+
+
+(1)
+sudo npm i -g ganache-cli @openzeppelin/cli
+npx oz unpack gsn
+npx oz init
+
+
+////////////////////////////////////////////////
+
+
+(2)
+ganache-cli --deterministic
+
+(3)
+npx oz-gsn run-relayer --quiet
+
+(1)
+npx oz accounts
+npx oz create // EXAMPLE
+truffle migrate // VAIOT
+npx oz-gsn fund-recipient --recipient 0xCfEB869F69431e42cdB54A4F4f105C19C080A601
+
+(3)
+node signServer/index.js
+
+(1)
+/////////////////// EXAMPLE ///////////////////
+cd client
+npm run start
+///////////////////////////////////////////////
+
+//////////////////// VAIOT ////////////////////
+node signServer/script.js
+///////////////////////////////////////////////
+
+
+(4)
+truffle console // to monitor

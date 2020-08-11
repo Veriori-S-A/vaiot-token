@@ -15,7 +15,12 @@ The total supply of the token is 720.000.000 and each token is divisible up to 1
 npm install
 ```
 
-## Testing
+## Migration
+```
+truffle migrate
+```
+
+<!-- ## Testing
 Run a test network using [Ganache](https://www.trufflesuite.com/ganache) test blockchain:
 ```
 ganache-cli
@@ -24,4 +29,4 @@ ganache-cli
 Then, run the test suite:
 ```
 truffle test
-```
+``` -->
