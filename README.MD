@@ -1,4 +1,4 @@
-# Vaiot Pretoken Migration Contract
+# Vaiot Token Migration Contract
 
 The Vaiot Token is an [EIP777](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-777.md) made with [OpenZeppelin](https://github.com/openzeppelin/openzeppelin-contracts).
 
