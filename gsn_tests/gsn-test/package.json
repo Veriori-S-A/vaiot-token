@@ -41,7 +41,7 @@
   "dependencies": {
     "@openzeppelin/contracts-ethereum-package": "^2.4.0",
     "@openzeppelin/upgrades": "^2.5.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "express": "^4.17.1",
